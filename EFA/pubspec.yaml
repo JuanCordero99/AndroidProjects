@@ -1,0 +1,48 @@
+name: efa
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: any
+  intl: ^0.17.0
+  flutter_paypal: ^0.2.1
+  font_awesome_flutter: ^10.0.0
+  pdf: ^3.11.1
+  path_provider: ^2.0.11
+  open_file: ^3.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: '0.13.1'
+  flutter_native_splash: ^2.0.7
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/faviconblack.png" # Ruta de tu ícono
+
+flutter_native_splash:
+  color: "#ffffff" # Color de fondo
+  image: assets/appimage.png # Ruta de tu imagen
+  android: true
+  ios: true
+
